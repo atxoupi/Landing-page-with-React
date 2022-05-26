@@ -18,9 +18,7 @@ const Navbar = () => {
 						aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon"></span>
 					</button>
-					<div
-						className="d-flex justify-content-end collapse navbar-collapse"
-						id="navbarText">
+					<div className="collapse navbar-collapse" id="navbarText">
 						<ul className=" navbar-nav ms-auto mb-2 mb-lg-0 ">
 							<li className="nav-item ">
 								<a

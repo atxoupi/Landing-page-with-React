@@ -4,7 +4,7 @@ import Card from "./Card.js";
 const Jumbotron = () => {
 	return (
 		<>
-			<div className="container">
+			<div className="container mb-2">
 				<div className="jumbotron">
 					<h1 className="display-4">Hello, world!</h1>
 					<p className="lead">
@@ -18,12 +18,12 @@ const Jumbotron = () => {
 						space content out within the larger container.
 					</p>
 					<a
-						className="btn btn-primary btn-lg"
+						className="btn btn-warning btn-lg"
 						href="#"
 						role="button">
 						Learn more
 					</a>
-					<div className="d-flex">
+					<div className="row">
 						<Card />
 						<Card />
 						<Card />
